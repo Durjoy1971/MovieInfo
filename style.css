@@ -139,13 +139,17 @@ p{
 }
 
 @media screen and (max-width: 600px) {
-    .container{
+    .container {
         font-size: 14px;
-    }
-    .poster{
-        margin: auto;
-        width: auto;
-        max-height: 10.8em;
-        
-    }
+        margin: 2em 1.2em;
+        padding: 2em 1em;
+        max-width: 100%;
+      }
+      .search-container {
+        grid-template-columns: 8fr 2fr;
+        gap: 0.8em;
+      }
+      .poster {
+        max-height: 8em;
+      }
 }
