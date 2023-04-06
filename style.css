@@ -153,3 +153,29 @@ p{
         max-height: 8em;
       }
 }
+
+@media screen and (max-width: 400px) {
+    .container {
+        font-size: 10px;
+        margin: 2em 1.2em;
+        padding: 2em 1em;
+        max-width: 100%;
+    }
+    .poster {
+        width: auto;
+        justify-self: center; /* horizontally center the element */
+    }
+    .info {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        margin-top: 1.2em;
+        gap: 1em;
+    }
+    .search-container {
+        grid-template-columns: 4fr 2fr;
+        gap: 0.8em;
+    }
+}
+
+  
